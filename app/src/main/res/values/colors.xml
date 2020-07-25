@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="darkBlue">#071f2a</color>
+    <color name="darkerBlue">#02131a</color>
+    <color name="evenDarkerBlue">#091014</color>
+    <color name="lighterBlue">#1f5062</color>
+    <color name="darkerLighterBlue">#1b384a</color>
+    <color name="trim">#2c3c49</color>
+    <color name="goldAccent">#fad54f</color>
+    <color name="darkerGoldAccent">#947009</color>
+    <color name="orangeSkillText">#fab223</color>
+    <color name="menuUnselectedText">#a0d3e8</color>
+    <color name="subText">#999999</color>
+</resources>

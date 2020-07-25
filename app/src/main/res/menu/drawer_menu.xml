@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:id="@+id/menu_top"
+        android:checkableBehavior="single">
+        <item android:id="@+id/nav_dashboard"
+            android:icon="@drawable/ic_dashboard"
+            android:title="Dashboard" />
+    </group>
+
+    <group android:id="@+id/menu_middle"
+        android:checkableBehavior="single">
+        <item android:id="@+id/nav_market"
+            android:icon="@drawable/ic_market"
+            android:title="Market" />
+        <item android:id="@+id/nav_profit"
+            android:icon="@drawable/ic_profit"
+            android:title="Profit Calculator" />
+        <item android:id="@+id/nav_bestiary"
+            android:icon="@drawable/ic_bestiary"
+            android:title="Bestiary" />
+    </group>
+
+    <group android:id="@+id/menu_bottom"
+        android:checkableBehavior="single">
+        <item android:id="@+id/nav_profile"
+            android:icon="@drawable/ic_profile"
+            android:title="Profile" />
+        <item android:id="@+id/nav_friends"
+            android:icon="@drawable/ic_friends"
+            android:title="Friends" />
+    </group>
+
+</menu>
