@@ -11,4 +11,5 @@
     <color name="orangeSkillText">#fab223</color>
     <color name="menuUnselectedText">#a0d3e8</color>
     <color name="subText">#999999</color>
+    <color name="white">#ffffff</color>
 </resources>

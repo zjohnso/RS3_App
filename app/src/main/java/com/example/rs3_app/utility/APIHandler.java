@@ -102,7 +102,7 @@ public class APIHandler {
             StringBuilder content = new StringBuilder();
             List<TradableItem> items = new ArrayList<>();
             try {
-                URL itemDB = new URL("https://raw.githubusercontent.com/zjohnso/rs3-ge-app/master/Python/RS3_Items.json");
+                URL itemDB = new URL("https://raw.githubusercontent.com/zjohnso/rs3-ge-app/master/Python/RS3_Items_Detail.json");
                 BufferedReader itemReader = new BufferedReader(new InputStreamReader(itemDB.openStream()));
                 String line;
                 while ((line = itemReader.readLine()) != null)
@@ -119,8 +119,12 @@ public class APIHandler {
                     int id = reader.nextInt();
                     reader.nextName();
                     String name = reader.nextString();
+                    reader.nextName();
+                    String category = reader.nextString();
+                    reader.nextName();
+                    String description = reader.nextString();
                     reader.endObject();
-                    items.add(new TradableItem(id, name));
+                    items.add(new TradableItem(id, name, category, description));
                 }
                 reader.endArray();
                 reader.close();

@@ -76,7 +76,6 @@ public class MarketFragment extends Fragment {
     }
 
     public void notifyChartDataLoaded(int position) {
-        Toast.makeText(getContext(), "Chart data loaded", Toast.LENGTH_SHORT).show();
         adapter.notifyItemChanged(position);
     }
 

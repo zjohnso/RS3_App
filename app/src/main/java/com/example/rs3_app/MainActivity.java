@@ -28,6 +28,7 @@ import com.example.rs3_app.fragments.ProfitFragment;
 import com.example.rs3_app.utility.APIHandler;
 import com.example.rs3_app.utility.DataHandler;
 import com.example.rs3_app.utility.SkillGridAdapter;
+import com.github.mikephil.charting.utils.Utils;
 import com.google.android.material.navigation.NavigationView;
 import com.squareup.picasso.Picasso;
 
